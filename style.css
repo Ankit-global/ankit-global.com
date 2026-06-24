@@ -1007,6 +1007,8 @@ input, textarea, select {
 }
 .ci-label { font-size: 0.75rem; color: var(--text-3); font-weight: 500; margin-bottom: 2px; }
 .ci-value { font-size: 0.9rem; font-weight: 600; }
+.ci-value a { color: inherit; transition: color 0.2s; }
+.ci-value a:hover { color: var(--blue); }
 
 .contact-service-tags {
   display: flex;
